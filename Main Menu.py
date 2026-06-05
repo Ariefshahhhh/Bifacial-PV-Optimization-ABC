@@ -76,7 +76,7 @@ with col1:
 with col2:
     st.markdown("""
     <div class='section-card'>
-    <h3>📊 Results & Graphs</h3>
+    <h3>📊 Results & Visual</h3>
     <p class='small-text'>
     Visual comparison of calculated, measured, and optimized results including
     error convergence plots.
