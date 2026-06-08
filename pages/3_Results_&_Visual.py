@@ -28,8 +28,8 @@ st.subheader("⚡ Pmax Comparison")
 col1, col2, col3 = st.columns(3)
 
 col1.metric("Measured (W)", f"{Pmax_measured:.4f}")
-col2.metric("Computed (Before ABC)", f"{Pmax_computed:.4f}")
-col3.metric("Optimized (After ABC)", f"{Pmax_optimized:.4f}")
+col2.metric("Computed (W)", f"{Pmax_computed:.4f}")
+col3.metric("Optimized (W)", f"{Pmax_optimized:.4f}")
 
 st.markdown("---")
 
