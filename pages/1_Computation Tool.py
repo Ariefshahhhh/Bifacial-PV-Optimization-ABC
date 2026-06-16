@@ -37,8 +37,8 @@ with col2:
 
     dirt = st.number_input("Dirt Level (%) [Range: 0 – 20%]", min_value=0.0, max_value=20.0, value=1)
     years = st.number_input("Module Age (years) [Range: 0 – 25 years]", min_value=0, max_value=25, value=1, step=1)
-    Fmm = st.number_input("Mismatch Factor (Fmm) [Range: 0.95 – 1.0]", min_value=0.95, max_value=1.0, value=1)
-    Fshade = st.number_input("Shading Factor (Fshade) [Range: 0.7 – 1.0]", min_value=0.7, max_value=1.0, value=1)
+    Fmm = st.number_input("Mismatch Factor (Fmm) [Range: 0.95 – 1.0]", min_value=0.95, max_value=1.0, value=0.98)
+    Fshade = st.number_input("Shading Factor (Fshade) [Range: 0.7 – 1.0]", min_value=0.7, max_value=1.0, value=0.95)
 
 # ------------------ CALCULATION ------------------
 if st.button("Compute Outputs"):
